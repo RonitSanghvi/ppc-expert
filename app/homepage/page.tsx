@@ -109,7 +109,7 @@ export default function Component() {
                 <CardContent>
                   <h3 className="text-xl font-bold">Google Ads</h3>
                   <p className="text-gray-500 mt-2">
-                    Leverage the power of Google's search engine to reach your target audience and drive qualified
+                    Leverage the power of Googles search engine to reach your target audience and drive qualified
                     leads.
                   </p>
                 </CardContent>
@@ -169,7 +169,7 @@ export default function Component() {
                 <CardContent>
                   <h3 className="text-xl font-bold">PPC Strategy</h3>
                   <p className="text-gray-500 mt-2">
-                    Benefit from our expert's strategic approach to PPC, tailored to your unique business goals and
+                    Benefit from our experts strategic approach to PPC, tailored to your unique business goals and
                     target audience.
                   </p>
                 </CardContent>
@@ -241,9 +241,9 @@ export default function Component() {
               <Card>
                 <CardContent>
                   <blockquote className="text-lg font-medium leading-relaxed">
-                    "Working with the PPC expert has been a game-changer for our business. Their strategic approach and
+                    Working with the PPC expert has been a game-changer for our business. Their strategic approach and
                     attention to detail have helped us achieve unprecedented results in our online advertising
-                    campaigns."
+                    campaigns.
                   </blockquote>
                 </CardContent>
                 <CardFooter>
@@ -262,9 +262,9 @@ export default function Component() {
               <Card>
                 <CardContent>
                   <blockquote className="text-lg font-medium leading-relaxed">
-                    "I was hesitant to invest in PPC advertising, but the PPC expert's guidance and expertise have
-                    completely changed my perspective. They've helped us achieve a remarkable return on our ad spend and
-                    consistently drive high-quality leads."
+                    I was hesitant to invest in PPC advertising, but the PPC experts guidance and expertise have
+                    completely changed my perspective. Theyve helped us achieve a remarkable return on our ad spend and
+                    consistently drive high-quality leads.
                   </blockquote>
                 </CardContent>
                 <CardFooter>
@@ -283,9 +283,9 @@ export default function Component() {
               <Card>
                 <CardContent>
                   <blockquote className="text-lg font-medium leading-relaxed">
-                    "The PPC expert's ability to stay ahead of the curve and implement cutting-edge strategies has been
-                    invaluable to our business. They've consistently helped us outperform our competitors and achieve
-                    our marketing goals."
+                    The PPC experts ability to stay ahead of the curve and implement cutting-edge strategies has been
+                    invaluable to our business. Theyve consistently helped us outperform our competitors and achieve
+                    our marketing goals.
                   </blockquote>
                 </CardContent>
                 <CardFooter>
