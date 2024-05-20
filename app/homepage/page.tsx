@@ -5,6 +5,7 @@ import { AvatarImage, AvatarFallback, Avatar } from "@/components/ui/avatar"
 import { Label } from "@/components/ui/label"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
+import Image from 'next/image';
 import {RocketIcon, FacebookIcon, GoalIcon, InstagramIcon, LinkedinIcon, MailIcon, PhoneIcon, PieChartIcon, SearchIcon, DollarSignIcon, PercentIcon, ThumbsUpIcon, TrophyIcon} from "./icons"
 
 export default function Component() {
@@ -51,16 +52,13 @@ export default function Component() {
                   <Button variant="secondary">Learn More</Button>
                 </div>
               </div>
-              <img
+              <Image
                 alt="PPC Expert"
                 className="mx-auto rounded-xl"
-                height="500"
+                height={500}
                 src="https://media.istockphoto.com/id/1088363648/photo/marketing-leads-and-sales-concept.jpg?s=612x612&w=0&k=20&c=52DWv2lz-IWUdu6_skh6gScXe0YpGSV2Kn3EodJyoTs="
-                style={{
-                  aspectRatio: "500/500",
-                  objectFit: "cover",
-                }}
-                width="500"
+                objectFit="cover"
+                width={500}
               />
             </div>
           </div>
@@ -68,16 +66,13 @@ export default function Component() {
         <section className="bg-white py-12 md:py-24 lg:py-32" id="about">
           <div className="container px-4 md:px-6">
             <div className="grid gap-6 lg:grid-cols-2 lg:gap-12">
-              <img
+              <Image
                 alt="About"
                 className="mx-auto rounded-xl"
-                height="500"
+                height={500}
                 src="https://media.istockphoto.com/id/610155916/photo/high-class-mature-man-portrait-at-home.jpg?s=612x612&w=0&k=20&c=j020a5-DXbufblrDh9OycN3rvjtoTbUDKDYxO19FtTg="
-                style={{
-                  aspectRatio: "500/500",
-                  objectFit: "cover",
-                }}
-                width="500"
+                width={500}
+                objectFit="cover"
               />
               <div className="space-y-4">
                 <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">About the PPC Expert</h2>
