@@ -16,9 +16,9 @@ export default function About() {
               <div className="space-y-4">
                 <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Introduction</h2>
                 <p className="text-gray-500 max-w-[600px] text-lg text-justify">
-                  I'm <b className='text-black'>Mr. Roberto Laura</b>, a Munich-based digital marketing professional with a focus on 
+                  I am <b className='text-black'>Mr. Roberto Laura</b>, a Munich-based digital marketing professional with a focus on 
                   results-driven PPC campaigns. My passion for this field ignited early on, leading me to 
-                  launch my own agency at the young age of 24. Since then, I've managed over €5 million in 
+                  launch my own agency at the young age of 24. Since then, I have managed over €5 million in 
                   PPC budgets for clients across various industries. My expertise extends beyond my agency 
                   work, as I also consult for businesses and individuals, leveraging platforms like Upwork 
                   and LinkedIn. 
@@ -27,7 +27,7 @@ export default function About() {
                 Currently, I head cpcpoint.net, a valuable resource for PPC insights, and contribute 
                 technical content to the esteemed adstage.io publication. Whether you need a skilled PPC 
                 expert to manage your campaigns or a seasoned technical writer to craft clear, informative 
-                content, I'm here to help. Let's discuss how I can propel your business forward.
+                content, I am here to help. Lets discuss how I can propel your business forward.
                 </p>
               </div>
             </div>
