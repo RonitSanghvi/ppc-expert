@@ -48,6 +48,13 @@ export const Services = [
   },
 ];
 
+export const Achievements = [
+  {heading:'$5M', details: 'Manage over 5 Million Dollars of PPC in EURO budget over the years.'},
+  {heading:'78%', details: 'Average increase in client ROI'},
+  {heading:'95%', details: 'Client satisfaction rate'},
+  {heading:'100+', details: 'Successful PPC campaigns'}
+]
+
 export const Blogs = [
     {
       heading: "Facebook Ads Vs TikTok Ads",
