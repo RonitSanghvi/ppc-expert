@@ -2,9 +2,9 @@ import { Card, CardHeader, CardContent } from "@/components/ui/card";
 import { FacebookIcon, InstagramIcon, LinkedinIcon, SearchIcon, PieChartIcon, GoalIcon, ContentWriting } from "./icons";
 import { Services as data } from "../data";
 
-const Services = () => {
+const Services = (id: any) => {
   return (
-    <section className="bg-gray-100 py-12 md:py-16 lg:py-24" id="services">
+    <section className="bg-gray-100 py-12 md:py-16 lg:py-20" id="services">
       <div className="container px-4 md:px-6">
         <div className="space-y-4 text-center">
           <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Our PPC Services</h2>

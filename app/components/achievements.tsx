@@ -1,5 +1,5 @@
 import { CardHeader, CardContent, Card } from "@/components/ui/card"
-const Achievements = () => {
+const Achievements = (id: any) => {
     return(
         <section className="bg-white py-12 md:py-24 lg:py-32" id="achievements">
           <div className="container px-4 md:px-6">

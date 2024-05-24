@@ -2,7 +2,7 @@ import { Card, CardHeader, CardContent } from "@/components/ui/card";
 import { education } from "../data";
 import Link from "next/link";
 
-export default function Education() {
+export default function Education(id: any) {
     return (
         <section className="bg-gray-100 py-12 md:py-24 lg:py-32" id="education">
           <div className="container px-4 md:px-6">

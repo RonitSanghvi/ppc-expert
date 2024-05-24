@@ -1,6 +1,6 @@
 import Image from 'next/image';
 
-export default function About() {
+export default function About(id: any) {
     return (
         <div className="bg-white py-12 md:py-24 lg:py-32" id="about">
           <div className="container px-4 md:px-6">

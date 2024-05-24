@@ -8,7 +8,7 @@ import { Textarea } from "@/components/ui/textarea"
 import {MailIcon, PhoneIcon} from "./icons"
 import { profiles } from "../data"
 
-export default function GetInTouch() {
+export default function GetInTouch(id: any) {
 
   const phoneNumber = "+1 (234) 567-890";
 

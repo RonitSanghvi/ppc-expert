@@ -3,7 +3,7 @@ import Link from "next/link";
 import { ArrowRightIcon } from "./icons";
 import { Blogs } from "../data";
 
-export default function Blog() {
+export default function Blog(id: any) {
     return (
         <section className="bg-white py-12 md:py-24 lg:py-32" id="blogs">
           <div className="container px-4 md:px-6">
