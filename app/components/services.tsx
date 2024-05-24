@@ -1,5 +1,4 @@
 import { Card, CardHeader, CardContent } from "@/components/ui/card";
-import { FacebookIcon, InstagramIcon, LinkedinIcon, SearchIcon, PieChartIcon, GoalIcon, ContentWriting } from "./icons";
 import { Services as data } from "../data";
 
 const Services = (id: any) => {
