@@ -6,13 +6,13 @@ import { Label } from "@/components/ui/label"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 import {MailIcon, PhoneIcon} from "./icons"
-import { profiles } from "../data"
+import { profiles, info } from "../data"
 
 export default function GetInTouch(id: any) {
 
-  const phoneNumber = "+1 (234) 567-890";
+  const phoneNumber = info.contact;
 
-  const handleCopyPhoneNumber = (event: any) => {
+  const handleCopy = (event: any) => {
     event.preventDefault();
     navigator.clipboard.writeText(phoneNumber).then(() => {
       alert("Phone number copied to clipboard!");
@@ -33,11 +33,11 @@ export default function GetInTouch(id: any) {
                   consultation with our expert.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4">
-                  <Link className="inline-flex items-center gap-2" href={profiles.email}>
+                  <Link className="inline-flex items-center gap-2" href="#">
                     <MailIcon className="h-6 w-6" />
                     <span>info@ppcexpert.com</span>
                   </Link>
-                  <Link className="inline-flex items-center gap-2" href="#" onClick={handleCopyPhoneNumber}>
+                  <Link className="inline-flex items-center gap-2" href="#" onClick={handleCopy}>
                     <PhoneIcon className="h-6 w-6" />
                     <span>{phoneNumber}</span>
                   </Link>

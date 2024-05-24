@@ -1,6 +1,3 @@
-import Link from "next/link"
-import { Button } from "@/components/ui/button"
-import {RocketIcon} from "./components/icons"
 import Hero from "./components/hero"
 import About from "./components/about"
 import Services from "./components/services"
@@ -15,9 +12,7 @@ export default function Component() {
 
   return (
     <div className="flex flex-col min-h-[100dvh]">
-      
       <Navbar />
-
       <main className="flex-1">
         <Hero />
         <About id="about"/>
@@ -27,7 +22,6 @@ export default function Component() {
         <Blog id="blog" />
         <GetInTouch id="contact" />
       </main>
-
       <Footer />
     </div>
   )
