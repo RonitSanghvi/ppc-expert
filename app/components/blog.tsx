@@ -17,7 +17,7 @@ export default function Blog(id: any) {
               {Blogs.map((blog, index)=>(<Card className="pt-6" key={index}>
                 <CardContent>
                   <h3 className="text-xl font-bold">{blog.heading}</h3>
-                  <p className="text-gray-500 mt-2"> {blog.data} </p>
+                  <p className="text-gray-500 mt-2 text-justify"> {blog.data} </p>
                   <Link className="inline-flex items-center hover:font-bold gap-2 mt-4 underline" href={blog.url}>
                     Read More
                     <ArrowRightIcon className="h-4 w-4" />

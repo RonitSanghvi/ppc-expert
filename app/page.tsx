@@ -9,40 +9,14 @@ import Education from "./components/education"
 import GetInTouch from "./components/getInTouch"
 import Blog from "./components/blog"
 import Footer from "./components/footer"
+import Navbar from "./components/navbar"
 
 export default function Component() {
 
   return (
     <div className="flex flex-col min-h-[100dvh]">
-      <header className="bg-gray-900 text-white px-4 lg:px-6 py-4 flex items-center justify-between">
-        <Link className="flex items-center gap-2" href="#">
-          <RocketIcon className="h-6 w-6" />
-          <span className="text-xl font-bold">Roberto Laura</span>
-        </Link>
-        <nav className="hidden lg:flex gap-6">
-          <Link className="hover:underline cursor-pointer transition-all duration-500 ease-in-out" href="#about">
-            About
-          </Link>
-          <Link className="hover:underline cursor-pointer transition-all duration-500 ease-in-out" href="#services">
-            Services
-          </Link>
-          <Link className="hover:underline" href="#achievements">
-            Achievements
-          </Link>
-          <Link className="hover:underline" href="#education">
-            Education
-          </Link>
-          <Link className="hover:underline" href="#blogs">
-            Blogs
-          </Link>
-          <Link className="hover:underline" href="#contact">
-            Contact
-          </Link>
-        </nav>
-        <Button className="lg:hidden">
-          Menu
-        </Button>
-      </header>
+      
+      <Navbar />
 
       <main className="flex-1">
         <Hero />

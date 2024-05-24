@@ -1,17 +1,18 @@
 import { Button } from "@/components/ui/button"
 import Image from 'next/image';
 import { HeroText } from "../data";
+import Link from "next/link";
 
 export default function Hero() {
     return (
-        <section className="bg-gray-900 text-white py-12 md:py-24 lg:py-32" id="hero">
+        <section className="bg-gray-900 text-white pb-12 pt-20 md:py-32 lg:py-48" id="hero">
           <div className="container px-4 md:px-6">
             <div className="grid gap-6 lg:grid-cols-2 lg:gap-12">
               <div className="space-y-4">
                 <h1 className="text-4xl font-bold tracking-tight sm:text-5xl lg:text-6xl">Unlock Your PPC Potential</h1>
-                <p className="text-gray-400 max-w-[600px] text-lg"> {HeroText} </p>
+                <p className="text-gray-400 max-w-[600px] text-lg text-justify"> {HeroText} </p>
                 <div className="flex flex-col sm:flex-row gap-4">
-                  <Button variant="secondary">Connect with me</Button>
+                  <Link href='#contact'><Button variant="secondary">Connect with me</Button></Link>
                 </div>
               </div>
               <Image
