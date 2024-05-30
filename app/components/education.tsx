@@ -9,7 +9,7 @@ export default function Education(id: any) {
             <div className="space-y-4 text-center">
               <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Education</h2>
               <p className="text-gray-500 max-w-[700px] mx-auto text-lg">
-              Comprehensive Training in Digital Marketing: Equipped with Advanced Certifications and Practical Knowledge to Deliver Strategic, Data-Driven Pay-Per-Click Campaigns for Maximum ROI and Business Growth.
+                I also took and passed various PPC courses.
               </p>
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">

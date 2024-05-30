@@ -8,8 +8,7 @@ const Services = (id: any) => {
         <div className="space-y-4 text-center">
           <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Our PPC Services</h2>
           <p className="text-gray-500 max-w-[700px] mx-auto text-lg">
-            Our PPC expert offers a comprehensive suite of services to help your business thrive in the digital
-            landscape.
+            Through my agency CPCpoint, me and my team offer a comprehensive suite of PPC services to help your business thrive.
           </p>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">

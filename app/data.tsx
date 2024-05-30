@@ -2,10 +2,9 @@ import { FacebookIcon, InstagramIcon, LinkedinIcon, SearchIcon, PieChartIcon, Co
 
 export const info = {
   name: "Roberto Laura",
-  contact: "+1 (234) 567-890",
-  email: "abc@gmail.com"
+  email: "contact@robertolaura.com"
 }
-export const HeroText = "I am a PPC specialist and content writer with a proven track record of success in helping businesses grow their online presence. I help businesses like yours attract more qualified leads, boost conversions, and achieve their marketing goals through the power of compelling content and strategic PPC campaigns."
+export const HeroText = "I am a PPC specialist and technical content writer with a proven track record of success in helping businesses grow their online presence, specifically through PPC. I help businesses like yours attract more qualified leads, boost conversions, and achieve their marketing goals through the power of compelling content and strategic PPC campaigns."
 
 export const profiles = {
   github: "https://github.com/",
