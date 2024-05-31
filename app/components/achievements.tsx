@@ -5,7 +5,7 @@ const Achievements = (id: any) => {
         <section className="bg-white py-12 md:py-24 lg:py-32" id="achievements">
           <div className="container px-4 md:px-6">
             <div className="space-y-4 text-center">
-              <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Our Achievements</h2>
+              <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">My Achievements</h2>
               <p className="text-gray-500 max-w-[700px] mx-auto text-lg">
                 Discover the impressive results that myself and my team of PPC expert have delivered for their clients.
               </p>

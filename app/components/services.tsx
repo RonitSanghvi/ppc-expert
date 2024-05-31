@@ -6,7 +6,7 @@ const Services = (id: any) => {
     <section className="bg-gray-100 py-12 md:py-16 lg:py-20" id="services">
       <div className="container px-4 md:px-6">
         <div className="space-y-4 text-center">
-          <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Our PPC Services</h2>
+          <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">My PPC Services</h2>
           <p className="text-gray-500 max-w-[700px] mx-auto text-lg">
             Through my agency CPCpoint, me and my team offer a comprehensive suite of PPC services to help your business thrive.
           </p>

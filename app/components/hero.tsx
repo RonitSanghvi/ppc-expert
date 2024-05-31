@@ -9,7 +9,7 @@ export default function Hero() {
       <div className="container px-4 md:px-6">
         <div className="grid gap-6 lg:grid-cols-2 lg:gap-12">
           <div className="space-y-4">
-            <h1 className="text-4xl font-bold tracking-tight sm:text-5xl lg:text-6xl">Unlock Your PPC Potential</h1>
+            <h1 className="text-4xl font-bold tracking-tight sm:text-4xl lg:text-5xl">I am Roberto, Your PPC Specialist</h1>
             <p className="text-gray-400 max-w-[600px] text-lg text-justify"> {HeroText} </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link href='#contact'><Button variant="secondary">Connect with me</Button></Link>

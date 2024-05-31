@@ -7,7 +7,7 @@ export default function Education(id: any) {
         <section className="bg-gray-100 py-12 md:py-24 lg:py-32" id="education">
           <div className="container px-4 md:px-6">
             <div className="space-y-4 text-center">
-              <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Education</h2>
+              <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">PPC Certificates</h2>
               <p className="text-gray-500 max-w-[700px] mx-auto text-lg">
                 I also took and passed various PPC courses.
               </p>
